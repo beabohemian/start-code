@@ -12,29 +12,53 @@
 
   gtag('config', 'UA-179940516-1');
 </script>
+<style>
+.index{
+    font-size:60px;
+}
+  li{
+    font-size:25px;
+  }
+  a {
+    color:black;
+    text-decoration:none;
+    font-size:25px;
+  }
+  h1 {
+    text-align:center;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding:30px;
+  }
+  ol{
+    border-right: 1px solid black;
+    width:180px;
+    margin:0;
+    padding:50px;
+    padding-top:20px;
+    padding-left:70px;
+    font-weight:bold;
+  }
+  body {
+    margin:0
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 350px 1fr;
+  }
+  </style>
 </head>
-
 <body>
-  <h1><a href="index.html">We are the Team Bohemian</a></h1>
+  <h1><a class="index" href="index.html">Team Bohemian</a></h1>
+  <div id="grid">
   <ol>
     <li><a href="aboutus.html">About us</a></li>
-    <li><a href="service.html">Service</a></li>
+    <li><a href="service.html" style="color:blue">Service</a></li>
     <li><a href="communication.html">Communication</a></li>
   </ol>
-  <h2>Team Bohemian의 서비스를 소개합니다.</h2>
+  <div>
+  <h3>Team Bohemian의 서비스를 소개합니다.</h3>
   <p><img src="여행.jpg" width="40%"></p>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/5f7d7d0df0e7167d0016daa1/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-</body>
+</div>
+</div>
 <html>

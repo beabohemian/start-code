@@ -12,51 +12,54 @@
 
   gtag('config', 'UA-179940516-1');
 </script>
+<style>
+.index{
+    font-size:60px;
+}
+  li{
+    font-size:25px;
+  }
+  a {
+    color:black;
+    text-decoration:none;
+    font-size:25px;
+  }
+  h1 {
+    text-align:center;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding:30px;
+  }
+  ol{
+    border-right: 1px solid black;
+    width:180px;
+    margin:0;
+    padding:50px;
+    padding-top:20px;
+    padding-left:70px;
+    font-weight:bold;
+  }
+  body {
+    margin:0
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 350px 1fr;
+  }
+  </style>
 </head>
-
 <body>
-  <h1><a href="index.html">We are the Team Bohemian</a></h1>
+  <h1><a class="index" href="index.html">Team Bohemian</a></h1>
+<div id="grid">
   <ol>
     <li><a href="aboutus.html">About us</a></li>
     <li><a href="service.html">Service</a></li>
-    <li><a href="communication.html">Communication</a></li>
+    <li><a href="communication.html" style="color:blue">Communication</a></li>
   </ol>
-  <h2>우리와 좋은 경험과 생각들을 나누어주세요.</h2>
+  <div>
+  <h3>우리와 좋은 경험과 생각들을 나누어주세요.</h3>
   <p><img src="여행.jpg" width="40%"></p>
-  <p>
-  <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://team-bohemian.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f7d7d0df0e7167d0016daa1/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+</div>
+</div>
 </body>
 <html>
