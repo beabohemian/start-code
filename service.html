@@ -1,78 +1,58 @@
 <!doctype html>
 <html>
 <head>
-  <title>Team Bohemian</title>
   <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179940516-1"></script>
-<script>
+  <title>Team Bohemian</title>
+  <!-- css/폰트-->
+  <link rel="stylesheet" href="becss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap"
+  rel="stylesheet">
+
+  <!-- 구글 애널리틱스 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179940516-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-179940516-1');
-</script>
-<style>
-.index{
-    font-size:60px;
-}
-  li{
-    font-size:25px;
-  }
-  a {
-    color:black;
-    text-decoration:none;
-    font-size:25px;
-  }
-  h1 {
-    text-align:center;
-    border-bottom: 1px solid black;
-    margin:0;
-    padding:30px;
-  }
-  ol{
-    border-right: 1px solid black;
-    width:180px;
-    margin:0;
-    padding:50px;
-    padding-top:20px;
-    padding-left:70px;
-    font-weight:bold;
-  }
-  body {
-    margin:0
-  }
-  #grid{
-    display:grid;
-    grid-template-columns: 350px 1fr;
-  }
-  </style>
+  </script>
+  <!--로고(폰트어썸)-->
+  <script src="https://kit.fontawesome.com/5a4960a73c.js"
+  crossorigin="anonymous">
+  </script>
+  <!--기타 삽입요소-->
+  <script src="main.js" defer>
+  </script>
+
 </head>
 <body>
-  <h1><a class="index" href="index.html">Team Bohemian</a></h1>
-  <div id="grid">
-  <ol>
-    <li><a href="aboutus.html">About us</a></li>
-    <li><a href="service.html" style="color:blue">Service</a></li>
-    <li><a href="communication.html">Communication</a></li>
-  </ol>
-  <div>
-  <h3>Team Bohemian의 서비스를 소개합니다.</h3>
-  <p><img src="여행.jpg" width="40%"></p>
-</div>
-</div>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f7d7d0df0e7167d0016daa1/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</body>
+    <!--메뉴-->
+  <nav class="navbar">
+      <div class="navbar_logo">
+          <i class="fas fa-anchor"></i>
+          <a href="index.html">Team Bohemian</a>
+      </div>
+
+      <ul class="navbar_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+
+      <div class="navbar_links">
+      </div>
+      <a herf="#" class="navbar_togglbtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+      <!--메인 내용-->
+    <div class = "content">
+      <h2> 더 깊고, 넓은 여행을 경험하세요.</h2>
+        <img src="여행.jpg" width="200" height="200">
+
+
+    </div>
+  </body>
 <html>
